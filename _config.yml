@@ -1,0 +1,11 @@
+# Site settings
+title: Tolga Okur
+email: ahmettolgaokur@gmail.com
+description: Boo!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://tolgaokur.com" # the base hostname & protocol for your site
+twitter_username: ahmettolgaokur
+github_username:  tolpp
+
+# Build settings
+markdown: kramdown
