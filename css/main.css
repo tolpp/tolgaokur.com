@@ -1,0 +1,54 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    padding: 10% 1em 0;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    min-width: 0;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.circle {
+    border-radius: 10%;
+}
+
+.profile-picture {
+    display: inline-block;
+    width: 144px;
+    height: 144px;
+}
+
+.mynameis h1{
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.iama p {
+    font-size: 22px;
+    margin-top: -14px;
+    color: #444;
+    font-weight: 300;
+}
+
+.iama p a{
+    color: #358dca;
+    text-decoration: none;
+    position: relative;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease-in-out ;
+}
+
+.iama p a:hover {
+    color: #999;
+    border-color: #999;
+    text-decoration: none;
+}
